@@ -27,12 +27,12 @@ export default function Home() {
             >
               Explore Menu
             </Link>
-            <a
-              href="#contact"
-              className="rounded-full bg-white/10 hover:bg-white/20 text-white px-6 py-3 text-sm md:text-base transition border border-white/30"
+            <Link
+              href="/reservations"
+              className="rounded-full bg-white text-neutral-900 hover:bg-neutral-100 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white px-6 py-3 text-sm md:text-base transition border border-white/30"
             >
-              Contact Us
-            </a>
+              Reserve a Table
+            </Link>
           </div>
         </div>
       </section>
@@ -47,6 +47,12 @@ export default function Home() {
               dining room pairs soft lighting with warm textures for a premium,
               intimate experience.
             </p>
+            <ul className="mt-6 grid sm:grid-cols-2 gap-3 text-sm">
+              <li className="rounded-xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 p-3">Seasonal menu</li>
+              <li className="rounded-xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 p-3">Wood-fired grill</li>
+              <li className="rounded-xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 p-3">Craft cocktails</li>
+              <li className="rounded-xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 p-3">Local purveyors</li>
+            </ul>
           </div>
           <Image
             src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1200&auto=format&fit=crop"
