@@ -13,6 +13,12 @@ export function Header() {
         </Link>
         <nav className="flex items-center gap-3">
           <Link
+            href="/reservations"
+            className={`px-3 py-1.5 rounded-full hover:bg-neutral-100 dark:hover:bg-neutral-800 transition ${pathname === "/reservations" ? "bg-neutral-100 dark:bg-neutral-800" : ""}`}
+          >
+            Reservations
+          </Link>
+          <Link
             href="/menu"
             className={`px-3 py-1.5 rounded-full hover:bg-neutral-100 dark:hover:bg-neutral-800 transition ${pathname === "/menu" ? "bg-neutral-100 dark:bg-neutral-800" : ""}`}
           >
